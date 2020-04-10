@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac", "Autofac\Autofac.csproj", "{94A00C25-F9E1-484C-A3B3-A4559071EA14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Infrastructre", "CQRS.Infrastructre\CQRS.Infrastructre.csproj", "{069584A2-0E90-454B-9C05-42C3B0B6C0E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR", "MediatR\MediatR.csproj", "{81412B81-45CA-4CDE-AB60-B20A5B338F9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.API", "CQRS.API\CQRS.API.csproj", "{5701ED54-3907-4659-80F6-FC3EBC602A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Domain", "CQRS.Domain\CQRS.Domain.csproj", "{F207CC65-8D71-4505-B010-9293F66812EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Application", "CQRS.Application\CQRS.Application.csproj", "{B2FA083D-080F-4024-AA85-D1F616FB639A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94A00C25-F9E1-484C-A3B3-A4559071EA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94A00C25-F9E1-484C-A3B3-A4559071EA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94A00C25-F9E1-484C-A3B3-A4559071EA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94A00C25-F9E1-484C-A3B3-A4559071EA14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81412B81-45CA-4CDE-AB60-B20A5B338F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81412B81-45CA-4CDE-AB60-B20A5B338F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81412B81-45CA-4CDE-AB60-B20A5B338F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81412B81-45CA-4CDE-AB60-B20A5B338F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069584A2-0E90-454B-9C05-42C3B0B6C0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069584A2-0E90-454B-9C05-42C3B0B6C0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069584A2-0E90-454B-9C05-42C3B0B6C0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069584A2-0E90-454B-9C05-42C3B0B6C0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5701ED54-3907-4659-80F6-FC3EBC602A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5701ED54-3907-4659-80F6-FC3EBC602A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5701ED54-3907-4659-80F6-FC3EBC602A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5701ED54-3907-4659-80F6-FC3EBC602A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F207CC65-8D71-4505-B010-9293F66812EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F207CC65-8D71-4505-B010-9293F66812EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F207CC65-8D71-4505-B010-9293F66812EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F207CC65-8D71-4505-B010-9293F66812EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FA083D-080F-4024-AA85-D1F616FB639A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FA083D-080F-4024-AA85-D1F616FB639A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FA083D-080F-4024-AA85-D1F616FB639A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FA083D-080F-4024-AA85-D1F616FB639A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
